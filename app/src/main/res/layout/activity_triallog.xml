@@ -16,7 +16,7 @@
         android:paddingTop="56dp">
 
         <TextView
-            android:text="This shouldn't be seen!"
+            android:text="This shouldn't be seen"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"
