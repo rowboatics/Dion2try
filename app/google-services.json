@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "706305853263",
+    "firebase_url": "https://dion-2nd-try.firebaseio.com",
+    "project_id": "dion-2nd-try",
+    "storage_bucket": "dion-2nd-try.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706305853263:android:54c1b2623782599b",
+        "android_client_info": {
+          "package_name": "com.polic.dion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706305853263-jii050ena2o7nbiitb1rk6okooil61vt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.polic.dion",
+            "certificate_hash": "7b1c323fd57ffdf5a0a8b03f0979e1e0caadaaad"
+          }
+        },
+        {
+          "client_id": "706305853263-m0r70t6jd7hmer51dh5ormo8j4ac1ng2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHvjwBbfHGApGvFonD200Qc2ZEcmQisVg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "706305853263-m0r70t6jd7hmer51dh5ormo8j4ac1ng2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
