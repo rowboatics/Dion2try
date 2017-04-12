@@ -31,5 +31,12 @@
             android:text="@string/Logout"
             />
 
+        <Button
+            android:id="@+id/bUserArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UserArea"
+            />
+
     </LinearLayout>
 </ScrollView>
