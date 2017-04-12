@@ -2,8 +2,12 @@
 <resources>
     <color name="colorPrimary">#323232</color>
     <color name="colorPrimaryDark">#323232</color>
-    <color name="colorAccent">#323232</color>
+    <color name="colorAccent">#6a5e77</color>
     <color name="colorActivityLogin">#323232</color>
     <color name="colorTransparent">#00000000</color>
     <color name="colorWhite">#FFFFFF</color>
+    <color name="colorLightButton">#938d8d</color>
+    <color name="colorDarkHint">#939393</color>
+    <color name="colorDarkButton">#3e3f41</color>
+    <color name="colorLightGrey">#bdbdbd</color>
 </resources>

@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    android:background="@color/colorActivityLogin">
+    tools:context="com.polic.dion.LoginActivity"
+    android:background="@color/colorPrimary">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -31,6 +33,7 @@
             android:hint="@string/email"
             android:textColor="@color/colorWhite"
             android:inputType="textEmailAddress"
+            android:textColorHint="@color/colorDarkHint"
             />
 
         <EditText
@@ -42,6 +45,7 @@
             android:inputType="textPassword"
             android:textColor="@color/colorWhite"
             android:layout_marginBottom="20sp"
+            android:textColorHint="@color/colorDarkHint"
             />
 
         <Button
@@ -49,6 +53,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/login"
+            android:textSize="20sp"
+            android:textColor="@color/colorLightButton"
+            android:theme="@style/AppTheme.Button"
             />
 
         <TextView
@@ -59,7 +66,8 @@
             android:gravity="center"
             android:text="@string/noAccount"
             android:textColor="@color/colorWhite"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            />
 
     </LinearLayout>
-</ScrollView>
+</android.support.design.widget.CoordinatorLayout>

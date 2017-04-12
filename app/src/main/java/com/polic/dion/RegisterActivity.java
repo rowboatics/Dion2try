@@ -36,7 +36,10 @@ import com.google.firebase.auth.FirebaseAuth;
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_register);
 
+            getSupportActionBar().hide();
+
             firebaseAuth = FirebaseAuth.getInstance();
+
 
             if(firebaseAuth.getCurrentUser() != null)
             {
