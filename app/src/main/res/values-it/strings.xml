@@ -19,5 +19,4 @@
     <string name="RegisteredSuccessfully">Registrato con successo</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_user_area">UserAreaActivity</string>
-    <string name="title_activity_triallog" translatable="false">Trial Print Email</string>
 </resources>
