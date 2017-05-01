@@ -23,7 +23,10 @@
         <activity
             android:name=".UserAreaActivity"
             android:label="@string/title_activity_user_area"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".GroupAddActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ArtistActivity" />
     </application>
 
 </manifest>

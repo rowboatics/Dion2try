@@ -20,7 +20,7 @@ public class TriallogActivity extends AppCompatActivity implements View.OnClickL
     private FirebaseAuth firebaseAuth;
 
     private TextView tvEmail;
-    private Button bLogout, bUserArea;
+    private Button bLogout, bUserArea, bGroupAdd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,9 +43,13 @@ public class TriallogActivity extends AppCompatActivity implements View.OnClickL
         bLogout = (Button) findViewById(R.id.bLogout);
         bUserArea = (Button) findViewById(R.id.bUserArea);
 
+        bGroupAdd = (Button) findViewById(R.id.bGroupAdd);
+
 
         bLogout.setOnClickListener(this);
         bUserArea.setOnClickListener(this);
+        bGroupAdd.setOnClickListener(this);
+
 
     }
 
@@ -61,6 +65,11 @@ public class TriallogActivity extends AppCompatActivity implements View.OnClickL
         if(view == bUserArea) {
             finish();
             startActivity(new Intent(this,UserAreaActivity.class));
+        }
+
+        if(view == bGroupAdd) {
+            finish();
+            startActivity(new Intent(this,MainActivity.class));
         }
 
     }

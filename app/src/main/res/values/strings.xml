@@ -30,4 +30,21 @@
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_triallog">Trial Print Email</string>
 
+    <array name="genres">
+        <item>Event</item>
+        <item>Trip</item>
+        <item>Rent</item>
+        <item>Charity</item>
+        <item>General</item>
+    </array>
+
+    <array name="artists">
+        <item>Mas</item>
+        <item>Los</item>
+        <item>Unitas</item>
+        <item>Loco</item>
+        <item>Franco</item>
+    </array>
+
+
 </resources>
