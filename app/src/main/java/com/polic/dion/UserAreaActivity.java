@@ -1,8 +1,6 @@
 package com.polic.dion;
 
 import android.support.design.widget.TabLayout;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
@@ -144,14 +142,14 @@ public class UserAreaActivity extends AppCompatActivity {
            switch (position)
            {
                case 0:
-                   Tab1 tab1 = new Tab1();
-                   return tab1;
+                   OverviewFrActivity overviewFrActivity = new OverviewFrActivity();
+                   return overviewFrActivity;
                case 1:
-                   Tab2 tab2 = new Tab2();
-                   return tab2;
+                   GroupsFrActivity groupsFrActivity = new GroupsFrActivity();
+                   return groupsFrActivity;
                case 2:
-                   Tab3 tab3 = new Tab3();
-                   return tab3;
+                   SearchFrActivity searchFrActivity = new SearchFrActivity();
+                   return searchFrActivity;
 
            }
            return null;
@@ -167,11 +165,11 @@ public class UserAreaActivity extends AppCompatActivity {
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "SECTION 1";
+                    return "Overview";
                 case 1:
-                    return "SECTION 2";
+                    return "Groups";
                 case 2:
-                    return "SECTION 3";
+                    return "Search";
             }
             return null;
         }

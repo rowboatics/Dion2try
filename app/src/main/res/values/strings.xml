@@ -45,6 +45,9 @@
         <item>Loco</item>
         <item>Franco</item>
     </array>
+    <string name="groups">Groups</string>
+    <string name="overview">Overview</string>
+    <string name="search">Search</string>
 
 
 </resources>

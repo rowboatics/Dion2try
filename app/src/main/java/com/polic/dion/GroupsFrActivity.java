@@ -11,11 +11,11 @@ import android.view.ViewGroup;
  * Created by moose on 5/1/2017.
  */
 
-public class Tab3 extends Fragment {
+public class GroupsFrActivity extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.tab3, container, false);
+        return inflater.inflate(R.layout.tab2, container, false);
 
     }
 }
