@@ -54,6 +54,19 @@ public class UserAreaActivity extends AppCompatActivity {
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
 
+        final int[] ICONS = new int[]{
+                R.drawable.ic_tab_overview,
+                R.drawable.ic_tab_groups,
+                R.drawable.ic_tab_search
+        };
+
+        //Get reference to your Tablayout
+        tabLayout.setupWithViewPager(mViewPager);
+
+        tabLayout.getTabAt(0).setIcon(ICONS[0]);
+        tabLayout.getTabAt(1).setIcon(ICONS[1]);
+        tabLayout.getTabAt(2).setIcon(ICONS[2]);
+
 
 
     }
