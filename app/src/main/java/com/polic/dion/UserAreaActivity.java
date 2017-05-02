@@ -1,5 +1,7 @@
 package com.polic.dion;
 
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -16,6 +18,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import android.widget.TextView;
+
+
 
 public class UserAreaActivity extends AppCompatActivity {
 
@@ -38,6 +42,8 @@ public class UserAreaActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_area);
+
+        setTitle("Dion");
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -64,6 +70,7 @@ public class UserAreaActivity extends AppCompatActivity {
         tabLayout.getTabAt(0).setIcon(ICONS[0]);
         tabLayout.getTabAt(1).setIcon(ICONS[1]);
         tabLayout.getTabAt(2).setIcon(ICONS[2]);
+
 
 
 
@@ -165,11 +172,11 @@ public class UserAreaActivity extends AppCompatActivity {
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "Overview";
+                    return UserAreaActivity.this.getString(R.string.overview);
                 case 1:
-                    return "Groups";
+                    return UserAreaActivity.this.getString(R.string.groups);
                 case 2:
-                    return "Search";
+                    return UserAreaActivity.this.getString(R.string.search);
             }
             return null;
         }
